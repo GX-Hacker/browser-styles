@@ -1,0 +1,24 @@
+/* Custom Font Everywhere
+ *
+ * GitHub: https://github.com/gx-hacker
+ *
+ * Unlike usual, this is not a Discord theme, but a style for browser!
+ * This style allows you to set any font you want in all websites!
+ * Plus, it tries not to break icon fonts. It's not 100% accurate, so please report or contribute if you found broken icons.
+*/
+
+@import url(https://gx-hacker.github.io/source/styles/Custom-Font-Everywhere_Core.css);
+
+:root {
+    --customFont:           sans-serif;    /* Choose the main fonts here. It's not case sensitive. You can use mutiple fonts, simply separate them by commas! The first font at the left will be used, and if not supported, the next one will be used. */
+    --monoCustomFont:       monospace;    /* Monospace fonts for code spaces and more. Pro tip: If you want to use the same font as the normal font, use: var(--customFont) */
+}
+
+/*
+
+Use this space to remember your fonts to use them later! (this doesn't do anything to the code, so write anything you want)
+
+Remembered fonts: 
+Remembered monospace fonts: 
+
+*/
